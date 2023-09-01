@@ -1,0 +1,7 @@
+esportes.forEach(function (esporte) {
+  console.log("Esporte: " + esporte.nome);
+  console.log("Modalidades: " + esporte.modalidades.join(", "));
+  console.log("País de Origem: " + esporte.paisOrigem);
+  console.log("País com Maior Número de Praticantes: " + esporte.paisMaiorPraticantes);
+  console.log("-------------------------");
+});
